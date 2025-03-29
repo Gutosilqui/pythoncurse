@@ -1,5 +1,13 @@
-# DESAFIO 001
+# DESAFIO 001 – Manipulando Strings e Entrada de Dados
+
 """
+Crie um programa em Python que imprima a frase 'Hello, World' de diferentes maneiras:
+Diretamente com o comando print().
+Armazenando a mensagem em variáveis separadas, concatenando-as e imprimindo o resultado.
+Usando diferentes métodos de formatação de strings (.format() e f-string).
+Em seguida, peça para o usuário informar o dia, mês e ano do seu nascimento através da função input(). Imprima na tela uma mensagem formatada mostrando a data completa de duas maneiras diferentes (concatenação direta e usando vírgulas).
+"""
+
 print('Hello, World')
 msg = 'Hello, World'
 msg1 = 'Hello,'
@@ -15,47 +23,6 @@ month = input('Mes = ')
 year = input('Ano = ')
 print('Vocé nasceu no dia ' + day + '/' + month + '/' + year + '. Correto?')
 print('Vocé nasceu no dia ',day,'/',month,'/',year,'. Correto?')
-"""
 
-# DESAFIO 002
-"""
-name = input('Qual é o seu nome? ')
-print('Olá ' + name + '! Prazer em te conhecer!')
-print('Olá {}! Prazer em te conhecer!'.format(name))
-print('Olá', name,'! Prazer em te conhecer!')
-"""
 
-# DESAFIO 003
-"""
-number1 = int(input('Primeiro número '))
-number2 = int(input('Segundo número '))
-soma = number1 + number2
-print('A soma é ', soma)
-
-n1 = input('Primeiro número ')
-n2 = input('Segundo número ')
-soma = int(n1) + int(n2)
-print ('A soma é', soma)
-"""
-
-# DESAFIO 004
-"""
-valor = input('Digite qualquer coisa seja números ou palavras = ')
-print(f'O tipo primitivo desse valor é {type(valor)}')
-
-print(f'É númerico? {valor.isnumeric()}')
-print(f'É decimal? {valor.isdecimal()}')
-print(f'É dígito? {valor.isdigit()}')
-print(f'É alfabético? {valor.isalpha()}')
-print(f'É alfanumérico? {valor.isalnum()}')
-print(f'Está em maiúsculas? {valor.isupper()}')
-print(f'Está em minúsculas? {valor.islower()}')
-print(f'Contém apenas espaços? {valor.isspace()}')
-print(f'Começa com letra maiúscula? {valor.istitle()}')
-"""
-
-# DESAFIO 005
-"""
-
-"""
 
